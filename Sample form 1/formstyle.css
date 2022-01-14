@@ -1,0 +1,102 @@
+
+    body  
+    {  
+    margin: 0;  
+    padding: 0;   
+    font-family: 'Latin';
+    font-size:xx-large;
+
+
+    }  
+    .login{  
+    display: inline-block;
+    width: 550px; 
+    margin: 10%;  
+    margin: 20 0 0 4500px;  
+    padding: 30px;  
+    background-color:azure; 
+    /* background-image: url(/form3/20150403100425_bmw.jpg); */ 
+    border-radius: 00px;              
+    display: inline-block; 
+    
+
+
+    }     
+
+    .blink{  
+    animation: blinker 0.5s linear infinite;
+    color: rgba(187, 228, 5, 0.884);
+    font-size:70%;
+    font-weight: bold;
+    
+
+    }  
+
+    @keyframes blinker {
+    50%{
+    opacity: 0;
+    }
+    }
+
+
+    label{  
+    color: #701616e3;  
+    font-size: 17px;
+    display: inline;
+    width: 150px;  
+
+    }  
+    #fname,#email,#gender{  
+
+    border-radius: 3px;  
+    padding-left: 20px;
+
+    }  
+ 
+
+    span{  
+    color: #b30b3d;  
+    font-size: 50px;  
+
+    }  
+    
+
+    .fn{
+    margin-left: -60px ;  
+    display:inline-table
+    }
+
+    .add{
+    margin-left: -8.8%;
+    
+    }
+    .gn{
+    margin-left: -260px;
+    display:inline-table;
+    
+    }
+    .em{
+    margin-left: -15.5%;
+    display:inline-table;
+        
+    }
+
+    .ph{
+    margin-left: -65px;
+    display:inline-table;
+    }
+
+body
+{
+    /* background-image: url("/form3/Ap.jpg"); */
+    background-image: url("/form3/PH.jpeg");
+    background-size: cover;
+
+}
+
+img{
+    position:absolute;
+    top: 18%;
+    right:17%;
+    }
+
